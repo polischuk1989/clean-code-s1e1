@@ -17,10 +17,7 @@ body {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-.aaa { text-align: center;
-}
-}
+
 .centered-main-page-element {
     display: block;
     width: 500px;
@@ -54,7 +51,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a3a;
 }
 /* Heading */
 h3,
@@ -73,8 +70,8 @@ input[type="text"] {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -128,8 +125,8 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+ul #completed-tasks label {
+    text-decoration: line-through;
     color: #888;
 }
 
@@ -146,3 +143,8 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
     display:none;
 }
+
+@media (max-width:768px) {
+    .aaa { text-align: center;
+    }
+    }
