@@ -12,21 +12,21 @@
 
 <body>
 
-<div class="matrix">
-  <img class="eisenhower-matrix" src="./eisenhower-matrix.jpg">
+<header class="matrix">
+  <img class="eisenhower-matrix" alt="eisenhower-matrix" src="./eisenhower-matrix.jpg">
   <a class="more-details" 
     href="https://goal-life.com/page/method/matrix-eisenhower"
     >Want more details?
   </a>
-</div>
-<div class="main-wrapper">
-  <p id="add-element">
+</header>
+<main class="main-wrapper">
+  <h3 id="add-element">
     <label for="new-task">Add Item </label>    
       <div class="task-row-wrapper">
         <input id="new-task" class="task" type="text">
         <button>Add</button>
       </div>
-  </p>
+  </h3>
 <h3>Todo</h3>
 
 <ul id="incomplete-tasks">
@@ -43,7 +43,7 @@
     <input type="text" value="Go Shopping" class="task">
     <button class="edit">Save</button>
     <button class="delete">
-    <img src="./remove.svg">
+    <img alt="delete button" src="./remove.svg">
     </button>
   </li>
 </ul>
@@ -54,11 +54,11 @@
       <label class="task">See the Doctor</label>
       <input type="text" class="task">
       <button class="edit">Edit</button>
-      <button class="delete"><img src="./remove.svg">
+      <button class="delete"><img alt="delete button" src="./remove.svg">
       </button>
     </li>
 </ul>
-</div>
-<script type="text/javascript" src="app.js"></script>
+</main>
+<script src="app.js"></script>
 </body>
 </html>
